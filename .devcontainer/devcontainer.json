@@ -1,0 +1,9 @@
+{
+    "name": "Hack + HHVM Dev",
+    "build": {
+      "dockerfile": "../Dockerfile"
+    },
+    "settings": {},
+    "extensions": [],
+    "postCreateCommand": "hh_client || true"
+  }
