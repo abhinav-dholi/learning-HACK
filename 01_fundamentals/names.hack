@@ -1,4 +1,10 @@
-class Data{
+/**
+ * The following is how you can do script inclusion in Hack
+ * The Hack language uses the `require_once` statement to include files.
+ */
+require_once(__DIR__ . '/../../vendor/autoload.php'); // Autoload Hack classes
+
+class Data {
     const int MAX_VALUE = 100; // constant value will be in CAPS and no $ sign in snake_case
     private int $value = 0; // variables will have $ sign and be in camelCase
 }
