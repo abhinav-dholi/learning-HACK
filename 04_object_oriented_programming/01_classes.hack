@@ -11,6 +11,8 @@ class User {
     ){}
 
     // Getters
+    // Note: -> In Hack is like . in java or python
+    // It is used to access properties and methods of an object
     public function getId(): int {
         return $this->id;
     }
