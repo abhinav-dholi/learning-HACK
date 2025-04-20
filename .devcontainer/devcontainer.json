@@ -1,9 +1,10 @@
 {
-    "name": "Hack + HHVM Dev",
-    "build": {
-      "dockerfile": "../Dockerfile"
-    },
-    "settings": {},
-    "extensions": [],
-    "postCreateCommand": "hh_client || true"
-  }
+  "name": "Hack + HHVM Dev",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "settings": {},
+  "extensions": [],
+  "postCreateCommand": "hh_client || true",
+  "remoteUser": "root"
+}
